@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">eHeart BP</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="sign_in">Iniciar Sesión</string>
+    <string name="email">correo electrónico</string>
+    <string name="password">contraseña</string>
+    <string name="measurement">MEDICION DE PRESION SANGUINEA</string>
+    <string name="capture">Capturar</string>
+    <string name="results">RESULTADOS</string>
+    <string name="obtain">OBTENER</string>
+    <string name="get_pressure">Obtener Medida</string>
+    <string name="record">Historial</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="settings">Ajustes</string>
+    <string name="close_session">Cerrar Sesión</string>
+    <string name="contacts">Contactos</string>
+    <string name="alerts">Alertas</string>
+    <string name="device">Dispositivo</string>
+</resources>

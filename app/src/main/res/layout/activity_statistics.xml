@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity">
+
+    <TextView
+        android:id="@+id/mediciones"
+        android:layout_width="146dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Grafica de mediciones"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"></com.github.mikephil.charting.charts.LineChart>
+
+</android.support.constraint.ConstraintLayout>
