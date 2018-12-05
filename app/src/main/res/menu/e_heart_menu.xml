@@ -12,6 +12,9 @@
         android:id="@+id/statistics"
         android:title="@string/statistics" />
     <item
+        android:id="@+id/risk"
+        android:title="@string/risk_prediction" />
+    <item
         android:id="@+id/close_session"
         android:title="@string/close_session" />
 </menu>

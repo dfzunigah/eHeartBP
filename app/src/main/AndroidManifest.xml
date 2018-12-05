@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nestor.eheartbp">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/launcher"
@@ -31,6 +32,7 @@
         <activity android:name=".ViewMeasurementActivity" />
         <activity android:name=".StatisticsActivity" />
         <activity android:name=".RecordsActivity" />
+        <activity android:name=".RiskPrediction"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiskPrediction">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#2b8676"
+        app:cpv_circle_width="56dp"
+        app:cpv_background_circle_width="10dp"
+        app:cpv_background_circle_color="#275c53"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="50"
+        app:cpv_text_color="#404040"
+        app:cpv_progress="1"
+        />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_gravity="bottom"
+            android:text="Risk of having diseases of the circulatory system"
+            android:textAlignment="center"
+            android:textColor="#404040"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/button_logged_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reload my risk!"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="0dp"
+            />
+        <Button
+            android:id="@+id/button_bad_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get risk for unhealthy patient"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="0dp"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

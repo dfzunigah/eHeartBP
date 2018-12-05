@@ -20,4 +20,5 @@
     <string name="device">Device</string>
     <string name="date">Fecha</string>
     <string name="Sample">Fecha de Muestra</string>
+    <string name="risk_prediction">Health risk score</string>
 </resources>
